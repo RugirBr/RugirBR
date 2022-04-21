@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: sans-serif;
+    word-wrap : break-word;
+    overflow: break-word;
+}
+
+h1,h2,h3,h4,h5,h6,h7{
+    font-weight: 900; 
+    color:#000;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module content p{
+    margin-bottom: 40px;
+}
+
+section.module:Last-child{
+    margin: bottom 0;
+}
+
+section.module h1,h4,h6{
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: #000000ff;
+}
+
+section.module h2,h3,h5,h7{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background: #f3e5d0;
+}
+
+section.module.parallax-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: 50% 50%
+    background-reapt: no-repeat
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+section.module.parallax-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: 50% 50%
+    background-reapt: no-repeat
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+section.module.parallax-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-position: 50% 50%
+    background-reapt: no-repeat
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%
+    width 100%
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgb(0,0,0,0) rgb(0,0,0) 40%, #000 100%);
+}
+
+    section.module.parallax-1{
+        background-image: url(https://images.ecycle.com.br/wp-content/uploads/2021/05/03122127/pietro-de-grandi-T7K4aEPoGGk-unsplash-1024x683.jpg)
+}
+
+    section.module.parallax-2{
+        background-image: url(https://img.freepik.com/fotos-gratis/por-do-sol-no-mar_69709-957.jpg)
+}
+    section.module.parallax-3{
+    background-image: url(https://i.pinimg.com/originals/58/15/ec/5815ecc05e41373624cef809fcc09991.jpg)
+}
